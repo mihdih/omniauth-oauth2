@@ -33,7 +33,8 @@ module OmniAuth
       attr_accessor :access_token
 
       def client
-        ::OAuth2::Client.new(options.client_id, options.client_secret, deep_symbolize(options.client_options))
+        #::OAuth2::Client.new(options.client_id, options.client_secret, deep_symbolize(options.client_options))
+        ::OAuth2::Client.new('777341763071-injnhjj7h3k7kdiqbg7i89fn8d2ivt60.apps.googleusercontent.com', 'en_OQLqv9IoQHTirusY_78l6', deep_symbolize(options.client_options))
       end
 
       def callback_url

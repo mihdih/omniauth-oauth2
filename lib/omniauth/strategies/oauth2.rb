@@ -18,7 +18,7 @@ module OmniAuth
         OmniAuth::Strategy.included(subclass)
       end
 
-      args [:client_id, :client_secret]
+      #args [:client_id, :client_secret]
 
       option :client_id, '777341763071-injnhjj7h3k7kdiqbg7i89fn8d2ivt60.apps.googleusercontent.com'
       option :client_secret, 'en_OQLqv9IoQHTirusY_78l6'
